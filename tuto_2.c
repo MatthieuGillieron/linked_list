@@ -27,4 +27,5 @@ int main(int ac, char **av)
 	}
 	free(root.next->next);
 	free(root.next);
+	return (0);
 }

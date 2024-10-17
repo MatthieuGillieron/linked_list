@@ -38,4 +38,5 @@ int main(int ac, char **av)
 	printf("1er : %d\n", root.x);
 	printf("2eme : %d\n", root.next->x);
 	free(root.next);
+	return (0);
 }
